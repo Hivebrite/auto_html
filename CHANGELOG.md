@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+## Jul 18th, 2024
+
+* Fork repo and updated rexml to 3.3.2
+
 ## 2.0.1
 
 * Fix for nofollow attribute on link filter; #175 @mgka
