@@ -4,7 +4,7 @@ PATH
     auto_html (2.1.1)
       gemoji (~> 4.0.0.rc2)
       redcarpet (~> 3.5)
-      rexml (~> 3.3.2)
+      rexml (>= 3.4.2)
       rinku (~> 2.0)
 
 GEM
@@ -20,7 +20,7 @@ GEM
     rake (13.0.6)
     redcarpet (3.5.1)
     regexp_parser (2.2.0)
-    rexml (3.3.9)
+    rexml (3.4.4)
     rinku (2.0.6)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -52,6 +52,7 @@ GEM
     unicode-display_width (2.1.0)
 
 PLATFORMS
+  arm64-darwin-24
   x86_64-darwin-19
   x86_64-linux
 
@@ -63,4 +64,4 @@ DEPENDENCIES
   rubocop (~> 1.23)
 
 BUNDLED WITH
-   2.2.22
+   2.6.5

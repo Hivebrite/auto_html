@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name = 'auto_html'
-  gem.version = '2.1.1'
+  gem.version = '2.1.2'
 
   gem.summary = 'Plain text to HTML conversion'
   gem.description = 'Collection of filters for transforming text into HTML code'
@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'gemoji', '~> 4.0.0.rc2'
   gem.add_dependency 'redcarpet', '~> 3.5'
-  gem.add_dependency 'rexml', '~> 3.3.2'
+  gem.add_dependency 'rexml', '>= 3.4.2'
   gem.add_dependency 'rinku', '~> 2.0'
 
   gem.required_ruby_version = '>= 2.5.0'
